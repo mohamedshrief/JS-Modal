@@ -1,0 +1,77 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+body{
+    background-image: url(../imgs/nbg.avif);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    font-size: 50px;
+    letter-spacing: 3px;
+    width: 181px;
+    height: 168px;
+    margin: auto;
+    background-image: url(../imgs/titel-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    /* padding: 30px; */
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caption{
+    background-image: url(../imgs/nbg.avif);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    right: 20px;
+}
+.caption{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.madal-container{
+    background-color: rgba(240, 255, 255, 0.411);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 555;
+    inset: 0;
+}
+.modal-item{
+    max-width: 600px;
+    max-height:  500px;
+    position: relative;
+}
+i{
+    position: absolute;
+    color: black;
+}
+#close{
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+}
+#next{
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    font-size: 30px;
+}
+#prev{
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    font-size: 30px;
+}
