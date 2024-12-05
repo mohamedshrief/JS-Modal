@@ -46,11 +46,13 @@ h1 {
     z-index: 555;
     inset: 0;
 }
+.img img{
+    cursor: pointer;
+}
 .modal-item{
     max-width: 600px;
     max-height:  500px;
     position: relative;
-    cursor: pointer;
 }
 i{
     position: absolute;
