@@ -38,9 +38,6 @@ h1 {
     left: 20px;
     right: 20px;
 }
-.caption{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 .madal-container{
     background-color: rgba(240, 255, 255, 0.411);
     display: none;
@@ -53,6 +50,7 @@ h1 {
     max-width: 600px;
     max-height:  500px;
     position: relative;
+    cursor: pointer;
 }
 i{
     position: absolute;
